@@ -12,6 +12,10 @@
 		4514C1581A1C2AA000346D76 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4514C1571A1C2AA000346D76 /* Images.xcassets */; };
 		4514C15B1A1C2AA000346D76 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4514C1591A1C2AA000346D76 /* LaunchScreen.xib */; };
 		4514C1671A1C2AA000346D76 /* HypnoNerd_tutorialTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4514C1661A1C2AA000346D76 /* HypnoNerd_tutorialTests.m */; };
+		4514C1721A1C2B8A00346D76 /* BNRHyponesisView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4514C1711A1C2B8A00346D76 /* BNRHyponesisView.m */; };
+		4514C1751A1C2BEB00346D76 /* BNRHyponesisViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4514C1741A1C2BEB00346D76 /* BNRHyponesisViewController.m */; };
+		4514C1781A1C4E8F00346D76 /* BNRReminderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4514C1771A1C4E8F00346D76 /* BNRReminderViewController.m */; };
+		4514C17A1A1C506B00346D76 /* BNRReminderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4514C1791A1C506B00346D76 /* BNRReminderViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,13 @@
 		4514C1601A1C2AA000346D76 /* HypnoNerd_tutorialTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HypnoNerd_tutorialTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4514C1651A1C2AA000346D76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4514C1661A1C2AA000346D76 /* HypnoNerd_tutorialTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HypnoNerd_tutorialTests.m; sourceTree = "<group>"; };
+		4514C1701A1C2B8A00346D76 /* BNRHyponesisView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRHyponesisView.h; sourceTree = "<group>"; };
+		4514C1711A1C2B8A00346D76 /* BNRHyponesisView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRHyponesisView.m; sourceTree = "<group>"; };
+		4514C1731A1C2BEB00346D76 /* BNRHyponesisViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRHyponesisViewController.h; sourceTree = "<group>"; };
+		4514C1741A1C2BEB00346D76 /* BNRHyponesisViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRHyponesisViewController.m; sourceTree = "<group>"; };
+		4514C1761A1C4E8F00346D76 /* BNRReminderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRReminderViewController.h; sourceTree = "<group>"; };
+		4514C1771A1C4E8F00346D76 /* BNRReminderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRReminderViewController.m; sourceTree = "<group>"; };
+		4514C1791A1C506B00346D76 /* BNRReminderViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BNRReminderViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +89,13 @@
 			children = (
 				4514C14E1A1C2AA000346D76 /* AppDelegate.h */,
 				4514C14F1A1C2AA000346D76 /* AppDelegate.m */,
+				4514C1701A1C2B8A00346D76 /* BNRHyponesisView.h */,
+				4514C1711A1C2B8A00346D76 /* BNRHyponesisView.m */,
+				4514C1731A1C2BEB00346D76 /* BNRHyponesisViewController.h */,
+				4514C1741A1C2BEB00346D76 /* BNRHyponesisViewController.m */,
+				4514C1761A1C4E8F00346D76 /* BNRReminderViewController.h */,
+				4514C1771A1C4E8F00346D76 /* BNRReminderViewController.m */,
+				4514C1791A1C506B00346D76 /* BNRReminderViewController.xib */,
 				4514C1571A1C2AA000346D76 /* Images.xcassets */,
 				4514C1591A1C2AA000346D76 /* LaunchScreen.xib */,
 				4514C14A1A1C2AA000346D76 /* Supporting Files */,
@@ -191,6 +209,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4514C17A1A1C506B00346D76 /* BNRReminderViewController.xib in Resources */,
 				4514C15B1A1C2AA000346D76 /* LaunchScreen.xib in Resources */,
 				4514C1581A1C2AA000346D76 /* Images.xcassets in Resources */,
 			);
@@ -212,6 +231,9 @@
 			files = (
 				4514C1501A1C2AA000346D76 /* AppDelegate.m in Sources */,
 				4514C14D1A1C2AA000346D76 /* main.m in Sources */,
+				4514C1751A1C2BEB00346D76 /* BNRHyponesisViewController.m in Sources */,
+				4514C1781A1C4E8F00346D76 /* BNRReminderViewController.m in Sources */,
+				4514C1721A1C2B8A00346D76 /* BNRHyponesisView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
