@@ -10,6 +10,23 @@
 #import "BNRHyponesisView.h"
 
 @implementation BNRHyponesisViewController
+
+-(instancetype)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
+    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
+    if (self) {
+        // Set the tabbar item's title
+        self.tabBarItem.title = @"Hypnotize";
+        
+        // Create a UIImage from a file
+        // This will use Hypno@2x.png on retina display devices
+        UIImage *i = [UIImage imageNamed:@"Hypno.png"];
+        
+        // Put that image on the tab bar item
+        self.tabBarItem.image = i;
+    }
+    return self;
+}
+
 -(void) loadView {
     // Create a view
     BNRHyponesisView *backgroundView = [[BNRHyponesisView alloc] init];
