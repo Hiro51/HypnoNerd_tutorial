@@ -39,6 +39,7 @@
     textField.borderStyle = UITextBorderStyleRoundedRect;
     textField.placeholder = @"Hypnotize me";
     textField.returnKeyType = UIReturnKeyDone;
+    textField.delegate = self;
     [backgroundView addSubview:textField];
     
     // Set it as *the* view of this view controller
@@ -51,6 +52,11 @@
     [super viewDidLoad];
     
     NSLog(@"BNRHypnosisViewController loaded its view.");
+}
+
+- (BOOL) textFieldShouldReturn:(UITextField *)textField {
+    NSLog(@"%@", textField.text);
+    return YES;
 }
 
 
